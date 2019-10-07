@@ -1,0 +1,26 @@
+$itemPadding: 3px;
+
+
+.search-results {
+  list-style: none;
+  padding-left: 0;
+  //margin-top: 25px;
+
+  .search-result-item {
+    padding: $itemPadding 0 $itemPadding $itemPadding * 5;
+    text-align: left;
+    margin: 1px 0;
+
+    &:hover {
+      background-color: gainsboro;
+    }
+  }
+}
+
+.top-border {
+  height: 1px;
+  background-color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+}
+
